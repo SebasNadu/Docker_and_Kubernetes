@@ -17,6 +17,8 @@ spec:
           image: sebasnadu/kub-demo-tasks:latest
           env:
             - name: AUTH_ADDRESS
+              # value: "10.99.104.252"
               value: "auth-service.default"
             - name: TASKS_FOLDER
-              value: "tasks"
+              value: tasks
+
